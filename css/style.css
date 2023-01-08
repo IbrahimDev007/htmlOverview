@@ -1,15 +1,45 @@
 
 *{
   margin: 0;
-
     /* border: 1px solid red; */
 }
 body{
-    margin:20px 100px;
+    margin:20px 100px 20px 100px;
+    width: 70vw;
+  
 }
+/* navbar */
+nav{
+    background-color: rgb(12, 210, 255);
+    height: 20px;
+    padding: 10px;
+    border: 0;
+    text-align: center;
+
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: rgb(255, 96, 39);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: -5px;
+}
+.nav{
+    background-color: rgb(12, 210, 255);
+    height: 20px;
+    padding: 10px;
+    border: 0;
+    text-align: center; 
+}
+
 nav  ul{
     display: flex;
-    gap: 2px;
+    gap: 10px;
     padding: 2px;
     justify-content: center;
   
@@ -18,16 +48,22 @@ li>ul{
     display: none;
     
 }
-.content:hover >ul {
+.content:hover ul {
     display: flex;
     flex-direction: column;
-    margin: 0,auto;
-    background: green;
+    background:lightblue ;
     text-align: center;
-    padding: 4px;
+    padding: 1px;
     position: absolute;
+    margin-right: 20%;
+   
    
 }
+/* .content:hover >ul>li{
+    p
+
+} */
+
 
 
 
@@ -41,7 +77,15 @@ li>ul{
     display: flex;
     justify-content: space-between;
 }
-
+.Manu-item{
+    display: flex;
+    gap: 5px;
+   
+}
+.header
+{
+    background-color: aquamarine;
+}
 li{
     list-style: none;
 }
@@ -52,3 +96,38 @@ a{
 /* .banner-title{
     position: absolute;
 } */
+.blog-title{
+    text-align: center;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+    background-color: aquamarine;
+    margin:0;
+}
+p{
+    background-color: bisque;
+}
+section{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+}
+/* section media  */
+
+.section-media{
+    display: flex;
+    justify-content: space-around;
+    border: 5px #ffb223 solid;
+    background-color: aquamarine;
+    gap: 10px;
+    padding: 50px;
+    align-items: center;
+}
+.video{
+    width: 600px;
+
+}
