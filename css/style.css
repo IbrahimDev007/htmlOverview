@@ -96,6 +96,7 @@ a{
 /* .banner-title{
     position: absolute;
 } */
+/* section css */
 .blog-title{
     text-align: center;
     padding: 20px;
@@ -130,4 +131,8 @@ footer{
 .video{
     width: 600px;
 
+}
+/* Table css */
+table td{
+    border: 1px solid red;
 }
