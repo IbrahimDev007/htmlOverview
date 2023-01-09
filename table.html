@@ -7,6 +7,13 @@
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Document</title>
 	</head>
+	<style>
+		table {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+	</style>
 	<body>
 		<header>
 			<!-- Navbar -->
@@ -16,7 +23,7 @@
 						Allison<span class="nav-title"> Blog</span>
 					</h3>
 					<ul>
-						<li><a href="symentic.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="nonsymantic.html"> Non-Symantec</a></li>
 						<li class="content">
 							Dropdown
@@ -27,7 +34,7 @@
 								<li>Dropdown 4</li>
 							</ul>
 						</li>
-						<li><a href="/HtmlOverview/media.html">Media</a></li>
+						<li><a href="media.html">Media</a></li>
 						<li><a href="table.html">Table</a></li>
 						<li><a href="form.html">form</a></li>
 					</ul>
@@ -37,29 +44,31 @@
 		<main>
 			<h1 class="blog-title">Table</h1>
 			<table>
-			<tr>
-				<th>name</th>
-				<th>email</th>
-				<th>birth-month</th>
-			</tr>
-			<tbody>
-				<tr>
-					<td>jakir</td>
-					<td>jakir@email.com</td>
-					<td>jan</td>
-				</tr>
-				<tr>
-					<td>fakir</td>
-					<td>fakir@email.com</td>
-					<td>feb</td>
-				</tr>
-				<tr>
-					<td>bakir</td>
-					<td>bakir@email.com</td>
-					<td>mar</td>
-				</tr>
-			</tbody>
-		</table>
+				<thead>
+					<tr>
+						<th>name</th>
+						<th>email</th>
+						<th>birth-month</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>jakir</td>
+						<td>jakir@email.com</td>
+						<td>jan</td>
+					</tr>
+					<tr>
+						<td>fakir</td>
+						<td>fakir@email.com</td>
+						<td>feb</td>
+					</tr>
+					<tr>
+						<td>bakir</td>
+						<td>bakir@email.com</td>
+						<td>mar</td>
+					</tr>
+				</tbody>
+			</table>
 		</main>
 	</body>
 	<footer>&copy copyright by developer Ibrahim</footer>
