@@ -7,39 +7,89 @@
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Document</title>
 	</head>
+	<style>
+.text-input{
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+}
+
+	</style>
 	<body>
 		<header>
 			<!-- Navbar -->
 			<nav>
-                <div class="navbar">
-				<h3 class="navbar-title">Allison<span class="nav-title"> Blog</span></h3>
-				<ul  >
-					<li ><a href="symentic.html">Home</a></li>
-					<li ><a href="nonsymantic.html"> Non-Symantec</a></li>
-					<li  class="content">
-                      Dropdown  <ul >
-                            <li >Dropdown 1</li>
-                            <li >Dropdown 2</li>
-                            <li >Dropdown 3</li>
-                            <li >Dropdown 4</li>
-                        </ul>
+				<div class="navbar">
+					<h3 class="navbar-title">
+						Allison<span class="nav-title"> Blog</span>
+					</h3>
+					<ul>
+						<li><a href="symentic.html">Home</a></li>
+						<li><a href="nonsymantic.html"> Non-Symantec</a></li>
+						<li class="content">
+							Dropdown
+							<ul>
+								<li>Dropdown 1</li>
+								<li>Dropdown 2</li>
+								<li>Dropdown 3</li>
+								<li>Dropdown 4</li>
+							</ul>
 						</li>
-						<li ><a href="/HtmlOverview/media.html">Media</a></li>
+						<li><a href="/HtmlOverview/media.html">Media</a></li>
 						<li><a href="table.html">Table</a></li>
 						<li><a href="form.html">form</a></li>
-				</ul>
-            </div>
-				
+					</ul>
+				</div>
 			</nav>
 		</header>
 		<main>
-  <h1 class="blog-title">Form</h1>
-    
-
+			<h1 class="blog-title">Form</h1>
+			<section class="table-section">
+				<fieldset class="text-input">
+					<legend class="form-title">form type inline input</legend>
+					<label for="">
+						Your name   <input type="text" placeholder="input your name"
+					/> <br></label>
+					<label class="input-position">
+						Your Email   <input type="email" placeholder="input your Email" /><br> 
+					</label><label>
+						Your
+						Phone   <input type="number" placeholder="input your Phone"
+					/></label>
+				</fieldset>
+				<fieldset>
+					<legend class="form-title">form type checkbox</legend>
+					<label for=""
+						><h3>which is popular gamein bangladesh?</h3>
+						<input type="checkbox" /> cricket 
+						<input type="checkbox" /> bollyball
+						<input type="checkbox" /> fotball
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend class="form-title">form type Radio</legend>
+					<label for="">
+						<h3>Input your favourite food</h3>
+						<input type="radio" />chicken tanduri <input type="radio" />beaf
+						kari <input type="radio" />vagitable porota
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend class="form-title">form type date</legend>
+					<label for="">
+						Input your birthdate!!!
+						<input type="date" /></label>
+				</fieldset>
+				<fieldset>
+					<legend class="form-title">form type submit</legend>
+					<label for="">submit<input type="submit" /></label>
+				</fieldset>
+				<fieldset>
+					<legend class="form-title">form type reset</legend>
+					<label for="">Reset<input type="reset" /></label>
+				</fieldset>
+			</section>
 		</main>
 	</body>
-	<footer>
-		&copy copyright by developer Ibrahim
-	</footer>
+	<footer>&copy copyright by developer Ibrahim</footer>
 </html>
-
